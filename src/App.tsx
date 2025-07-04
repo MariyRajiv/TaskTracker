@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Task, User, TaskFilter, TaskSort } from './types/Task';
 import { Login } from './components/Login';
 import { Header } from './components/Header';
@@ -134,9 +134,10 @@ function App() {
           if (!a.dueDate) return 1;
           if (!b.dueDate) return -1;
           return new Date(a.dueDate).getTime() - new Date(b.dueDate).getTime();
-        case 'priority':
+        case 'priority': {
           const priorityOrder = { high: 3, medium: 2, low: 1 };
           return priorityOrder[b.priority] - priorityOrder[a.priority];
+        }
         case 'created':
         default:
           return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
