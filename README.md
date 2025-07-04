@@ -184,9 +184,6 @@ The built files will be in the `dist` directory.
 - 👥 Collaboration features
 - 🌐 Cloud synchronization
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
