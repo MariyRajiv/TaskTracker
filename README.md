@@ -1,3 +1,5 @@
+[Watch the Demo video](https://www.loom.com/share/931093e6f80943d08d23c7cf87c1a19b?sid=f6eefec4-693c-46a2-bd06-cbfca4e59faa)
+
 # 📝 Personal Task Tracker
 
 A beautiful, feature-rich task management application built with React.js and TypeScript. This application provides a clean, intuitive interface for managing your daily tasks with advanced filtering, search capabilities, and a stunning dark/light mode toggle.
